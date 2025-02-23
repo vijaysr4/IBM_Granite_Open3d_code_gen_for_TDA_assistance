@@ -77,12 +77,17 @@ This script calls `clip.py` with the image path, which detects shapes and writes
 
 ### Step 2: Generate 3D Open3D Code
 The same `main.py` then calls `granite_code.py`, which reads the description and uses IBM Granite to generate the Open3D code.
+![Python Code](sample_output.jpeg)
 
 ### Step 3: Visualize the Generated Model
 After code generation, use a visualization script (e.g., `visualization.py`) to render the 3D model:
 ```bash
 python visualization.py
 ```
+![3D Wireframe](sample_3d_model.jpeg)
+
+![Demo](demo.gif)
+
 ## Contributors
 - [Vijay Venkatesh Murugan](https://github.com/yourusername)
 - [Pradeep](https://github.com/yourusername)
