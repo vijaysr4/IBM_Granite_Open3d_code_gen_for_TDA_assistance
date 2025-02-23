@@ -68,6 +68,9 @@ TopoGen3D automates the process of generating 3D models from 2D images by combin
 ## Usage
 
 ### Step 1: Generate Image Description
+### Input: 
+![3D Wireframe](sample_3d_model.jpeg)
+
 Run the script to process a 2D image and generate a shape description:
 
 ```bash
@@ -120,7 +123,6 @@ After code generation, use a visualization script (e.g., `visualization.py`) to 
 ```bash
 python visualization.py
 ```
-![3D Wireframe](sample_3d_model.jpeg)
 
 ![Demo](demo.gif)
 
