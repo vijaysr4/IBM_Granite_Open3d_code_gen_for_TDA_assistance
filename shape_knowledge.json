@@ -1,0 +1,78 @@
+{
+  "torus": "A doughnut-shaped surface of revolution, genus 1, with a hole in the center.",
+  "klein bottle": "A non-orientable 4D surface with no distinct inside or outside, first described by Felix Klein.",
+  "mobius strip": "A surface with only one side and one boundary, non-orientable.",
+  "sphere": "A perfectly round 3D geometrical object, all points equidistant from the center.",
+  "cube": "A regular hexahedron with six square faces, eight vertices, and twelve edges.",
+  "cylinder": "A 3D solid with two parallel circular bases connected by a curved surface.",
+  
+  "triangle": "A polygon with three edges and three vertices. Types include equilateral, isosceles, and scalene.",
+  "square": "A regular quadrilateral with four equal sides and four right angles (90°).",
+  "circle": "A 2D shape where all points are equidistant from the center. Perimeter is called circumference.",
+  "pentagon": "A five-sided polygon. A regular pentagon has equal sides and internal angles of 108°.",
+  "hexagon": "A six-sided polygon. Regular hexagons tessellate perfectly and have internal angles of 120°.",
+  "ellipse": "A closed curve with two focal points where the sum of distances to foci is constant.",
+  "parabola": "A U-shaped curve where any point is equidistant from a fixed focus and directrix line.",
+  "hyperbola": "A smooth curve with two branches, defined as the locus of points with constant difference of distances to two foci.",
+
+  "icosahedron": "A regular polyhedron with 20 triangular faces, 12 vertices, and 30 edges. One of the Platonic solids.",
+  "dodecahedron": "A 12-faced Platonic solid with regular pentagonal faces.",
+  "octahedron": "A Platonic solid with 8 triangular faces, 6 vertices, and 12 edges.",
+  "tetrahedron": "The simplest Platonic solid with 4 triangular faces. The only pyramid that is also a regular polyhedron.",
+  "cone": "A 3D shape that tapers from a circular base to a single apex point. Volume = (1/3)πr²h.",
+  "pyramid": "A polyhedron formed by connecting a polygonal base to an apex. Egyptian pyramids are square pyramids.",
+  "prism": "A polyhedron with two congruent parallel bases and rectangular lateral faces.",
+
+  "boy's surface": "An immersion of the real projective plane in 3D space, discovered by Werner Boy.",
+  "roman surface": "A self-intersecting mapping of the real projective plane into 3D space, with sixfold symmetry.",
+  "cross-cap": "A Möbius strip-like surface formed by attaching a disk to a Möbius band boundary.",
+  "helicoid": "A minimal surface resembling a double spiral staircase, described by the parametric equations (u cos v, u sin v, v).",
+  "catenoid": "A minimal surface between two parallel circles, formed by rotating a catenary curve.",
+  "enneract": "A 9-dimensional hypercube. The generalization of cube to n dimensions.",
+  "calabi-yau manifold": "A compact complex manifold with SU(n) holonomy, important in string theory.",
+
+  "cardioid": "A heart-shaped curve traced by a point on a circle rolling around another circle of equal radius.",
+  "lemniscate": "A figure-eight shaped curve defined by (x² + y²)² = a²(x² - y²). Special case: Bernoulli's lemniscate.",
+  "cassini oval": "The set of points where the product of distances to two foci is constant.",
+  "hypocycloid": "A curve traced by a point on a circle rolling inside another circle. 3-cusp case is called a deltoid.",
+  "epicycloid": "A curve traced by a point on a circle rolling outside another circle. 5-cusp version appears on Japanese fans.",
+
+  "mandelbrot set": "The set of complex numbers c for which f(z) = z² + c does not diverge when iterated from z=0.",
+  "sierpinski triangle": "A fractal pattern of recursively subdivided equilateral triangles into smaller triangles.",
+  "koch snowflake": "A fractal curve of infinite perimeter but finite area, starting from an equilateral triangle.",
+
+  "tesseract": "The 4D hypercube. A 4D analog of the cube, with 8 cubic cells and 24 square faces.",
+  "k3 surface": "A simply connected compact complex surface with trivial canonical bundle. Important in algebraic geometry.",
+  "handlebody": "A 3-manifold constructed by gluing solid tori (handles) to a 3-ball.",
+
+  "truncated icosahedron": "An Archimedean solid with 12 pentagonal and 20 hexagonal faces. Pattern of soccer balls.",
+  "rhombicuboctahedron": "An Archimedean solid with 18 square and 8 triangular faces. All angles are identical.",
+  "great dodecahedron": "A Kepler-Poinsot polyhedron with 12 intersecting pentagonal faces.",
+
+  "monkey saddle": "A surface with three downward slopes (z = x³ - 3xy²). Named for accommodating two legs and a tail.",
+  "whitney umbrella": "A self-intersecting surface defined by z² = x²y. Fundamental in singularity theory.",
+  "plucker conoid": "A ruled surface of degree 4 with straight line generators. Defined by z(x² + y²) = axy.",
+
+  "menger sponge": "A 3D fractal with infinite surface area and zero volume. The 3D extension of the Sierpinski carpet.",
+  "gyroid": "An infinitely connected triply periodic minimal surface discovered by Alan Schoen in 1970.",
+  "costa surface": "A complete minimal surface embedded in ℝ³ with finite topology (homeomorphic to a torus minus three points).",
+
+  "amplituhedron": "A geometric structure in particle physics that simplifies calculations of particle interactions.",
+  "errerahedron": "A polyhedron encoding the amplitude structures in quantum field theory.",
+
+  "fullerene": "A molecule of carbon in form of hollow sphere (C60), ellipsoid, or tube. Named for Buckminster Fuller.",
+  "dna double helix": "The twisted ladder structure of DNA with two strands held together by hydrogen bonds.",
+  "virus capsid": "The protein shell of a virus, often exhibiting icosahedral symmetry.",
+
+  "ring nebula": "A planetary nebula appearing as a ring-shaped cloud of gas expelled by a dying star.",
+  "neutron star": "An extremely dense stellar remnant with quantum-degenerate neutron matter, ~20 km diameter.",
+  "black hole ergosphere": "The region outside a rotating black hole where spacetime is dragged faster than light.",
+
+  "rhombus": "A quadrilateral with all sides equal length, often called a diamond shape. Opposite angles are equal.",
+  "trapezoid": "A quadrilateral with at least one pair of parallel sides. Called trapezium in British English.",
+  "crescent": "A 2D shape resembling the curved sickle shape of the waxing or waning moon.",
+  "hemisphere": "Half of a sphere, formed by cutting a sphere with a plane passing through its center.",
+  "frustum": "A portion of a solid (typically a cone or pyramid) that lies between two parallel planes cutting it.",
+  "octagon": "An eight-sided polygon. Regular octagons are used in stop signs and building designs.",
+  "decagon": "A ten-sided polygon. A regular decagon has internal angles of 144° each."
+}
