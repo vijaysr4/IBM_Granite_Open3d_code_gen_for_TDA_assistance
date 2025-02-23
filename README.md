@@ -73,11 +73,47 @@ Run the script to process a 2D image and generate a shape description:
 ```bash
 python main.py
 ```
+output:
+```
+Detected shapes:
+torus (0.38): A doughnut-shaped surface of revolution, genus 1, with a hole in the center.
+mobius strip (0.25): A surface with only one side and one boundary, non-orientable.
+
+Best shape:
+torus (0.38): A doughnut-shaped surface of revolution, genus 1, with a hole in the center.
+
+```
+
 This script calls `clip.py` with the image path, which detects shapes and writes the highest confidence description to `description.txt`.
 
 ### Step 2: Generate 3D Open3D Code
 The same `main.py` then calls `granite_code.py`, which reads the description and uses IBM Granite to generate the Open3D code.
-![Python Code](sample_output.jpeg)
+
+#### output:
+```
+import open3d as o3d
+import numpy as np
+
+# Create a doughnut-shaped surface of revolution
+doughnut = o3d.geometry.DoughnutSurfaceMesh(
+    radius=1.0,
+    thickness=0.1,
+    resolution=100,
+    genus=1
+)
+
+# Create a hole in the center
+hole = o3d.geometry.TriangleMesh.create_sphere(
+    radius=0.05,
+    resolution=10
+)
+
+# Create a mesh by subtracting the hole from the doughnut
+mesh = doughnut.create_mesh_from_triangle_mesh(hole)
+
+# Visualize the mesh
+o3d.visualization.draw_geometries([mesh])
+```
 
 ### Step 3: Visualize the Generated Model
 After code generation, use a visualization script (e.g., `visualization.py`) to render the 3D model:
@@ -89,9 +125,9 @@ python visualization.py
 ![Demo](demo.gif)
 
 ## Contributors
-- [Vijay Venkatesh Murugan](https://github.com/yourusername)
-- [Pradeep](https://github.com/yourusername)
-- [Karthikeyan](https://github.com/yourusername)
+- [Vijay Venkatesh Murugan](https://github.com/vijaysr4)
+- [Pradeep](https://github.com/pradeepng21)
+- [Karthikeyan](https://github.com/karthik-official)
 
 ## License
 This project is licensed under the MIT License. 
